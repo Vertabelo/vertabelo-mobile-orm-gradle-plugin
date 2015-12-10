@@ -1,0 +1,29 @@
+group = 'com.mobiorm.gradle'
+version = '1.0.0'
+
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.6
+
+dependencies {
+    compile gradleApi()
+    compile "org.apache.httpcomponents:httpmime:4.5"
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    jcenter()
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from 'build/docs/javadoc'
+}
+
+task sourcesJar(type: Jar) {
+    from sourceSets.main.allSource
+    classifier = 'sources'
+}
+
