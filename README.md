@@ -2,7 +2,7 @@
 
 This plugin allows you to automate the ORM generation.
 
-You can find more info and usage at [MobiORM] website.
+You can find more info and usage at [Vertabelo Mobile ORM] website.
 
-   [MobiORM]: <http://www.mobiorm.com>
+   [Vertabelo Mobile ORM]: <http://mobile-orm.vertabelo.com>
 

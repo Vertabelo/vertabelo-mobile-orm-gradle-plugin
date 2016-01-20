@@ -4,7 +4,7 @@ class MobiORMExtension {
     String modelFile = "model.xml"
     String destDir = "src/main/java"
     String packageName = "com.mobiorm"
-    String apiUrl = "https://api.mobiorm.com"
+    String apiUrl = "https://api-mobile-orm.vertabelo.com"
     String apiVersion = "1.0"
     VertabeloORMExtension vertabelo = new VertabeloORMExtension()
 }
